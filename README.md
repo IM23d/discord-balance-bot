@@ -6,6 +6,20 @@ A simple Discord balance bot to track virtual currency in your server.
 
 Below is a list of available commands, grouped by their respective categories.
 
+
+### AdminCog
+
+- **`-addbalance <user> <amount>`**  
+  Adds a specified amount to a user's balance.
+  
+- **`-ban <user>`**  
+  Bans a member from the server.
+  
+- **`-kick <user>`**  
+  Kicks a member from the server.
+  
+- **`-removebalance <user> <amount>`**  
+  Removes a specified amount from a user's balance.
 ### EconomyCog
 
 - **`-bal`**  
@@ -13,6 +27,9 @@ Below is a list of available commands, grouped by their respective categories.
   
 - **`-balance`**  
   Check your virtual currency balance.
+  
+- **`-balancetop`**  
+  Displays the server's balance leaderboard.
   
 - **`-beg`**  
   Gives the user a random amount of money (1-100) and shows the new wallet balance. Has a 24-hour cooldown.
@@ -32,7 +49,7 @@ Below is a list of available commands, grouped by their respective categories.
 ### GamblingCog
 
 - **`-gamble <amount>`**  
-  Gamble a specified amount of virtual currency.
+  Gamble a specified amount of virtual currency. Heads or Tails.
 
 ### JobMarketCog
 
@@ -51,6 +68,28 @@ Below is a list of available commands, grouped by their respective categories.
 - **`-myjobs`**  
   Display your currently owned jobs with their details.
 
+
+### LastFMcog
+
+- **`-lastfm`**  
+  Displays information about your Last.fm account.
+
+- **`-login`**  
+  Logs into your Last.fm account.
+
+- **`-np`**  
+  Displays the currently playing song on Last.fm.
+
+
+### LevelsCog
+
+- **`-level [user]`**  
+  Shows your level or another member's level.
+
+- **`-levels`**  
+  Displays the server's level leaderboard.
+
+  
 ### OtherCog
 
 - **`-code`**  
@@ -83,10 +122,16 @@ Below is a list of available commands, grouped by their respective categories.
 - **`-github`**  
   Sends a link to GitHub's pull request documentation.
 
+- **`-lyric`**  
+ Outputs a random lyric from the song "Call Me Maybe".
+
 ### No Category
 
 - **`-help`**  
   Shows this message with a list of available commands and their descriptions.
   
-- **`-lyric`**  
-  Outputs a random lyric from the song "Call Me Maybe".
+- **`-help <command>`**  
+  Shows detailed information about a specific command.
+
+- **`-help <category>`**  
+  Shows detailed information about a specific category.
